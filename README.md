@@ -1,61 +1,43 @@
 ![Alt_Text](https://github.com/KevinNourian/Coursera/blob/main/Images/coursera.png)
 
+# THIS IS A DRAFT
 
-# Coursera Dataset Analysis for Tilto, Inc.
-This project uses a dataset obtained from Kaggle. The data contains information about courses at Coursera. Coursera was founded by Daphne Koller and Andrew Ng in 2012 with a vision of providing life-transforming learning experiences to learners around the world. Today, Coursera is a global online learning platform that offers anyone, anywhere, access to online courses and degrees from leading universities and companies.
+# COVID-19 Analysis for President Gitanas Nausėda of the Republic of Lithuania
+As the lead data scientist for the government of the Republic of Lithuania, I was given a personal mission by President Gitanas Nausėda to prepare the nation for a possible next wave of the Corona virus pandemic. South Korea has been one of the more successful nations in the fight against COVID-19, so I decided to analyze the available COVID-19 data on South Korea to learn of their success strategies, their pitfalls. In my analysis, I will determine what I have learned that can be applied here in Lithuania.
 
-I will perform the following tasks on this dataset:
+As of the date of this analysis, February 25, 2022, the COVID-19 numbers from South Korea are as follows:
 
-1. Load the data into Pandas
-2. Provide basic information about the data
-3. Clean and prepare the data for analysis
-4. Provide basic descriptive statistics
-5. Deal with outlier data
-6. Perform Exploratory Data Analysis (EDA)
-7. Summarize and provide conclusions of my findings
-8. Discuss possible further analysis
+- Confirmed Cases: 2,665,077
+- Deaths: 7,783
+- Recovered: 969,524
+
+The first known case of COVID-19 in South Korea was on January 20, 2020 when a 35-year-old Chinese woman arrived at Incheon Airport from Wuhan and tested positive. By early March, approximately forty days after its first confirmed case South Korea became the second most infected country after China. South Korea undertook a massive public and private sector effort to fashion a national response to the pandemic.
+
+The South Korean response is distinct in several respects:
+
+- Early: An early and almost immediate response after the first case on January 20.
+- Speed: A premium on moving as quickly as possible in setting up a testing regime.
+- Transparency: Real-time and frequent information dissemination to the public.
+- Public-Private sector: Enlisting companies with needed resources in a private-public sector response.
+- National organization: Organized as a national effort rather than at the city, provincial, or local levels.
+
+I will utilize the following datasets from Kaggle which contain data from January to June 2020:
+
+1. Age: Confirmed and deceased cases based on age groups
+2. Gender: Confirmed and deceased cases based on gender, male or female
+3. Province: Confirmed and deceased cases based on province
+4. Patient: Confirmed and deceased cases based on age, gender, method of 5. infection, province and city
+5. Case: Confirmed cases based on method of infection, province, city, and specific location
+6. Population: Count and ratio of academic organizations, nursing homes and elderly population
+7. Test: Number of tests and number of negative and positive results.
 
 
 ## Goals
-The goal of this project is to analyze the Top 50 Spotify Tracks 2020 dataset and determine insights about its features. This analysis is done for Tilto, Inc. is a Lithuanian education and technology company, registered in the United States. Tilto is planning to create a company with Coursera as a model.
+The goal of this project is to present the report of my analysis of the South Korean datasets to President Gitanas Nausėda and provide the government of the Republic of Lithuania with recommendations on how to prepare of a possible next wave of the Corona virus pandemic. I will concentrate on the following topics:
 
-For this project, I will answer the following questions:
-
-### Total Numbers
-1. How many students have enrolled at Coursera?
-2. How many courses are offered at Coursera?
-3. How many organizations offer courses at Coursera?
-
-### Organizations
-1. Which ten organizations have the highest enrollment?
-2. Which ten organizations have the lowest enrollment?
-3. Which ten organizations offer the highest number of courses?
-4. Which organizations offer fewer than 10 courses?
-
-### Courses
-1. What are the top ten course titles with the highest enrollment?
-2. What are the bottom ten-course titles with the lowest enrollment?
-
-### Difficulty Levels
-1. What are the difficulty levels of courses at Coursera?
-2. What are the enrollment numbers in courses at each difficulty level?
-
-### Certificates
-1. What types of certificates can students earn at Coursera?
-2. What is the total number of each type of certificate offered?
-
-### Ratings
-1. What are the top ten highest-rated courses at Coursera?
-2. What are the bottom ten lowest-rated courses?
-3. What are the top ten highest-rated educational organizations?
-4. What are the bottom ten lowest-rated organizations?
-
-### Correlations
-1. How do student ratings correlate with course enrollment numbers?
-
-### Recommendations
-1. What can Tilto, Inc. learn from Coursera?
-2. How can Tilto become a better organization than Coursera?
-
-## To execute the program:
-Open the file in Jupyter Notebook.
+Total Numbers
+Effect of Population Density
+Effect of Weather
+Effect of Testing
+Effect of Travel
+Some Ideas for Analysis
