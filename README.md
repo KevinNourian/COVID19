@@ -35,9 +35,9 @@ I will utilize the following datasets from Kaggle which contain data from Januar
 ## Goals
 The goal of this project is to present the report of my analysis of the South Korean datasets to President Gitanas Nausėda and provide the government of the Republic of Lithuania with recommendations on how to prepare of a possible next wave of the Corona virus pandemic. I will concentrate on the following topics:
 
-Total Numbers
-Effect of Population Density
-Effect of Weather
-Effect of Testing
-Effect of Travel
-Some Ideas for Analysis
+- Total Numbers
+- Effect of Population Density
+- Effect of Weather
+- Effect of Testing
+- Effect of Travel
+- Some Ideas for Analysis
