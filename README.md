@@ -1,4 +1,4 @@
-![Alt_Text](https://github.com/KevinNourian/Coursera/blob/main/Images/coursera.png)
+![Alt_Text](https://github.com/KevinNourian/COVID19/blob/main/Images/SouthKorea2.PNG)
 
 # THIS IS A DRAFT
 
