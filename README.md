@@ -1,43 +1,29 @@
 ![Alt_Text](https://github.com/KevinNourian/COVID19/blob/main/Images/SouthKorea2.PNG)
 
-# THIS IS A DRAFT
+# Introduction
+As the lead data scientist for the Republic of Lithuania, I was given the task to prepare the nation for a possible next wave of the COVID-19 or similar pandemic. Since South Korea was one of the more successful nations in the fight against COVID-19, I decided to analyze the available COVID-19 data from this country to learn about their successes and failures. Although South Korea's 52 million population is over 16 times larger than Lithuania's 3 million, and although the culture and government practices of the two countries are different, there are certainly parallels that can be drawn. What worked in one country may not work in another, but lessons can be learned.
 
-# COVID-19 Analysis for President Gitanas Nausėda of the Republic of Lithuania
-As the lead data scientist for the government of the Republic of Lithuania, I was given a personal mission by President Gitanas Nausėda to prepare the nation for a possible next wave of the Corona virus pandemic. South Korea has been one of the more successful nations in the fight against COVID-19, so I decided to analyze the available COVID-19 data on South Korea to learn of their success strategies, their pitfalls. In my analysis, I will determine what I have learned that can be applied here in Lithuania.
+# Goal
+The goal of this analysis is to provide the government of the Republic of Lithuania with recommendations on how to prepare for a possible next wave of COVID-19 or similar pandemic.
 
-As of the date of this analysis, February 25, 2022, the COVID-19 numbers from South Korea are as follows:
+# Hypothesis
+To effectively fight a pandemic it is essential for the population to follow informed national guidelines based on scientific principles known at the time.
 
-- Confirmed Cases: 2,665,077
-- Deaths: 7,783
-- Recovered: 969,524
+# Technical Requirements
 
-The first known case of COVID-19 in South Korea was on January 20, 2020 when a 35-year-old Chinese woman arrived at Incheon Airport from Wuhan and tested positive. By early March, approximately forty days after its first confirmed case South Korea became the second most infected country after China. South Korea undertook a massive public and private sector effort to fashion a national response to the pandemic.
+1. Identify opportunities for data analysis
+2. Perform EDA
+3. Work with data from Kaggle
+4. Visualize data with Matplotlib & Seaborn
+5. Read data, perform queries, and filter data using Pandas
 
-The South Korean response is distinct in several respects:
+# Datasets
 
-- Early: An early and almost immediate response after the first case on January 20.
-- Speed: A premium on moving as quickly as possible in setting up a testing regime.
-- Transparency: Real-time and frequent information dissemination to the public.
-- Public-Private sector: Enlisting companies with needed resources in a private-public sector response.
-- National organization: Organized as a national effort rather than at the city, provincial, or local levels.
-
-I will utilize the following datasets from Kaggle which contain data from January to June 2020:
-
-1. Age: Confirmed and deceased cases based on age groups
-2. Gender: Confirmed and deceased cases based on gender, male or female
-3. Province: Confirmed and deceased cases based on province
-4. Patient: Confirmed and deceased cases based on age, gender, method of 5. infection, province and city
-5. Case: Confirmed cases based on method of infection, province, city, and specific location
+1. Age: Cumulative confirmed and deceased cases based on age groups
+2. Gender: Cumulative confirmed and deceased cases based on gender
+3. Province: Cumulative confirmed and deceased cases based on province
+4. Patient: Data on age, gender, method of infection, country, province and city, including method of infection if known, dates admitted and released from hospital
+5. Case: Confirmed cases based on the method of infection, province, city, and specific location
 6. Population: Count and ratio of academic organizations, nursing homes and elderly population
-7. Test: Number of tests and number of negative and positive results.
-
-
-## Goals
-The goal of this project is to present the report of my analysis of the South Korean datasets to President Gitanas Nausėda and provide the government of the Republic of Lithuania with recommendations on how to prepare of a possible next wave of the Corona virus pandemic. I will concentrate on the following topics:
-
-- Total Numbers
-- Effect of Population Density
-- Effect of Weather
-- Effect of Testing
-- Effect of Travel
-- Some Ideas for Analysis
+7. Test: Accumulated number of tests, including negative and positive results
+8. Policy: Government actions and policies by date
