@@ -1,7 +1,7 @@
 ![Alt_Text](https://github.com/KevinNourian/COVID19/blob/main/Images/SouthKorea2.PNG)
 
 # Introduction
-As the lead data scientist for the Republic of Lithuania, I was given the task to prepare the nation for a possible next wave of the COVID-19 or similar pandemic. Since South Korea was one of the more successful nations in the fight against COVID-19, I decided to analyze the available COVID-19 data from this country to learn about their successes and failures. Although South Korea's 52 million population is over 16 times larger than Lithuania's 3 million, and although the culture and government practices of the two countries are different, there are certainly parallels that can be drawn. What worked in one country may not work in another, but lessons can be learned.
+Since South Korea was one of the more successful nations in the fight against COVID-19, I decided to analyze the available COVID-19 data from this country to learn about their successes and failures. Although South Korea's 52 million population is over 16 times larger than Lithuania's 3 million, and although the culture and government practices of the two countries are different, there are certainly parallels that can be drawn. What worked in one country may not work in another, but lessons can be learned.
 
 # Goal
 The goal of this analysis is to provide the government of the Republic of Lithuania with recommendations on how to prepare for a possible next wave of COVID-19 or a similar pandemic.
